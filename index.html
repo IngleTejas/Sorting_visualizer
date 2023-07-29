@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="array-container"></div>
+    <button onclick="resetArray()">Generate New Array</button>
+    <button onclick="startSorting()">Start Sorting</button>
+    <button onclick="stopSorting()">Stop Sorting</button>
+    <label for="algorithm-select">Choose an Algorithm:</label>
+    <select id="algorithm-select" onchange="changeAlgorithm()">
+      <option value="bubble">Bubble Sort</option>
+      <option value="selection">Selection Sort</option>
+      <option value="insertion">Insertion Sort</option>
+      <!-- Add more sorting algorithm options here -->
+    </select>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

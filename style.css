@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+  }
+  
+  .bar {
+    width: 10px;
+    margin: 0 1px;
+    background-color: #4caf50;
+  }
+  
+  button {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  select {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  option {
+    background-color: #fff;
+  }
+  
+  
